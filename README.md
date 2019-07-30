@@ -30,7 +30,11 @@ To set policy with a specified scope:
 <# Setting policy for just the current user #>
 Set-ExecutionPolicy -Scope CurrentUser Unrestricted
 ```
-With the above command executed, it should finish silently. With that you are now ready to run your scripts!
+With the above command executed, it should finish silently. With that you are now ready to run your scripts!  
+
+For more info on installing your scripts, getting it to run and where to install them, refer to the links below:
+- <https://docs.microsoft.com/en-us/powershell/module/powershellget/install-script?view=powershell-6>
+- <https://stackoverflow.com/questions/1011243/where-to-put-powershell-scripts>
 
 ---
 ## LICENSE
